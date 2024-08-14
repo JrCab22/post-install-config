@@ -3,10 +3,7 @@
 </p>
 
 <h1>osTicket - Post-Install Configuration</h1>
-In this tutorial we will be learning how to utilize the administrator funcctions in osTicket.<br />
-
-
-<h2>Video Demonstration</h2>
+In this tutorial we will be learning how to utilize the administrator functions in osTicket such as creating an SLA and configuring agents, departments, or teams. <br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -71,14 +68,25 @@ In this tutorial we will be learning how to utilize the administrator funcctions
 6) Configure Users (customers)
    - Agent Panel -> Users -> Add New
    - Create 2 new user accounts:  Karen and Jeff
+   
+![image](https://github.com/user-attachments/assets/8ada4abd-2d4b-4c36-87ec-c9ed12c02354)
 
+![image](https://github.com/user-attachments/assets/daf27f85-a777-4934-8f8e-574e41c7b3d4)
 
 7) Configure SLA
-   - Admin Panel -> Manage -> SLA
-   - The following will be defined under the SLA: **Sev-A (1 hour, 24/7), Sev-B (4 hours, 24/7), Sev-C (8 hours, business hours)**
+   - Go back to Admin Panel -> Manage -> SLA 
+   - The following will be added under the SLA: **Sev-A (1 hour, 24/7), Sev-B (4 hours, 24/7), Sev-C (8 hours, business hours)**
+     
+![image](https://github.com/user-attachments/assets/6d180cb4-262c-4ff3-ba38-171e275d8f2c)
+
 
 8) Configure Help Topics
-   - Admin Panel -> Manage -> Help Topics
-   - The following will be defined under Help topics: **Business Critical Outage, Personal Computer Issues, Equipment Request, Password Reset**
+   - Admin Panel -> Manage -> Help Topics -> Add a Help Topic
+   - The following will be added under Help topics: **Business Critical Outage, Personal Computer Issues, Equipment Request, Password Reset**
+   - We can assign these topics to SEV-A, B, and C through New Ticket options tab.
+
+![image](https://github.com/user-attachments/assets/1a414781-2df6-450d-be5a-2888e020e4da)
+
+![image](https://github.com/user-attachments/assets/87a482c1-bec0-4be3-ba3a-07313b21ae86)
 
 
